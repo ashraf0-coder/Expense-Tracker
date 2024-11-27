@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+
+.container {
+  flex-wrap: wrap;
+  width: 350px;
+  background: #344953;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.transactions, .add-transaction {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f8f9fa;
+  border-radius: 5px;
+  color: black;
+}
+
+.transactions ul li.expense {
+  color: red;
+}
+
+.transactions ul li.income {
+  color: green;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #306884;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  position: relative;
+  left: 110px;
+  top: 10px;
+}
+
+button:hover {
+  background: #51869f;
+}
+.one{
+  background-color: #e3e7eb;
+  height: 180px;
+  color: black;
+  border-radius: 5px;
+}
+.two input{
+  position: relative;
+  top: 25px;
+  left: 10px;
+  color: white;
+}
+.two label{
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  color: white;
+}
+.three{
+  margin-right: 20px;
+}
+.three button{
+  margin-left: 10px;
+}

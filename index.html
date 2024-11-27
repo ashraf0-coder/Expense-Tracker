@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="one">
+      <div class="header">Expense Tracker</div>
+    <div class="balance">
+      <h3>Total Balance</h3>
+      <h2 id="balance" style="color: rgb(71, 81, 86);">$0.00</h2>
+      <div>
+        Income: <span id="income" style="color: green;">$0.00</span> | 
+        Expense: <span id="expense" style="color: red;">$0.00</span>
+      </div>
+    </div>
+  </div>
+    <div class="transactions">
+      <h3>Transactions</h3>
+      <ul id="transaction-list">
+        <li>No transactions.</li>
+      </ul>
+    </div>
+    <div class="add-transaction">
+      <h3>Add Transaction</h3>
+      <form class="form" id="transaction-form">
+        <div class="two">
+        <label>
+          <input type="radio" name="type" value="income" required> Income
+        </label>
+        <label>
+          <input type="radio" name="type" value="expense" required> Expense
+        </label>
+      </div>
+          <div class="three">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Submit</button>
+          </div>
+      </form>
+      <footer>
+        <p style="font-size: 12px; text-align: center; position: relative; top: 20px;">&copy;2024 Expense Tracker Made By Ashraf</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="appp.js"></script>
+</body>
+</html>
